@@ -52,6 +52,15 @@ cd ML_Rain_Prediction_Project
 
 ---
 
+## Implementation Details
+### Data Preprocessing
+
+-Handling missing values
+-Feature engineering (cyclic encoding of time features)
+-Data standardization
+-Outlier detection and treatment
+-Duplicate removal
+
 ## Models
 
 ### 1. Linear Regression
@@ -71,7 +80,21 @@ cd ML_Rain_Prediction_Project
 - **Testing MAE**: 1.35
 
 ---
+## Feature Engineering
 
+-Cyclical encoding of month features
+-Feature scaling using StandardScaler
+-Selection of key features based on correlation analysis
+
+## Hyperparameter Tuning
+Best parameters for Random Forest:
+{
+    'bootstrap': True,
+    'max_depth': 10,
+    'min_samples_leaf': 4,
+    'min_samples_split': 10,
+    'n_estimators': 100
+}
 ## Model Comparison
 
 ### Key Observations:
@@ -91,20 +114,13 @@ cd ML_Rain_Prediction_Project
 
 ---
 
-## Future Improvements
-1. Experiment with advanced models like Gradient Boosting (XGBoost, LightGBM) or Neural Networks.
-2. Perform interpretability analysis using SHAP or LIME.
-3. Deploy the model on a cloud platform for real-time predictions.
-
----
-
 ## References
 1. [Random Forest Algorithm - GeeksforGeeks](https://www.geeksforgeeks.org/random-forest-algorithm-in-machine-learning/)
 2. [Sri Lanka Weather Dataset - Kaggle](https://www.kaggle.com/datasets/rasulmah/sri-lanka-weather-dataset)
 
 ---
 
-## Author
+## Authors
 - **Govindu Thejana** - govinduthejana@gmail.com
 - **Yasiru Kularathna** - yasirukularathne1234@gmail.com
 
