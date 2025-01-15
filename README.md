@@ -106,7 +106,7 @@ Best parameters for Random Forest:
 - Scatter plots comparing actual vs. predicted rainfall indicate a better fit with Random Forest.
 - Feature importance analysis in Random Forest highlights key contributors like temperature and precipitation hours.
 
----
+--- 
 
 ## Key Results
 - Random Forest achieved a higher R² (0.83) on the test set compared to Linear Regression (0.60).
